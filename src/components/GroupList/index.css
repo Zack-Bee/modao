@@ -25,13 +25,13 @@
     border: 2px solid rgba(180, 180, 180, 0.8);
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 420px) {
     .group-list-ul {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 769px) {
+@media screen and (min-width: 420px) and (max-width: 769px) {
     .group-list-ul {
         grid-template-columns: 1fr 1fr;
     }
