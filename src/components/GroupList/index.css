@@ -3,7 +3,8 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 30px;
+    grid-gap: 30px;
+    grid-auto-rows: 126px;
 }
 
 .group-list-item {
@@ -14,7 +15,6 @@
     box-shadow: none;
     transition: box-shadow 0.5s linear;
     padding: 20px;
-    margin: 20px 0;
 }
 
 .group-list-item:hover {
@@ -25,13 +25,13 @@
     border: 2px solid rgba(180, 180, 180, 0.8);
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 420px) {
     .group-list-ul {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 769px) {
+@media screen and (min-width: 420px) and (max-width: 769px) {
     .group-list-ul {
         grid-template-columns: 1fr 1fr;
     }
